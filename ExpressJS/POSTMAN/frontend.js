@@ -7,3 +7,7 @@ const response= await fetch('https:api.example.com/data',{
     },
     body:JSON.stringify({name:'Akshat', age:21})
 });
+
+//js object is an object based format.
+//json object is a string or text based format.
+//functions and undefined cant be sent in json key.
